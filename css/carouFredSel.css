@@ -9,12 +9,12 @@
 	display: block;
 }
 .list_carousel li {
-	text-align: center;		
+	text-align: center;
 	padding: 0;
 	display: block;
 	float: left;
 	position: relative;
-}	
+}
 .list_carousel li img{
 	width: 100% !important;
 	height: auto !important;

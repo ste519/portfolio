@@ -74,15 +74,15 @@
 }
 .top-5
 {
-    margin-top: 5px !important;	
+    margin-top: 5px !important;
 }
 .top-10
 {
-    margin-top: 10px;	
+    margin-top: 10px;
 }
 .top-15
 {
-    margin-top: 15px;	
+    margin-top: 15px;
 }
 .top-20
 {
@@ -90,27 +90,27 @@
 }
 .top-25
 {
-    margin-top: 25px;	
+    margin-top: 25px;
 }
 .top-30
 {
-    margin-top: 30px;	
+    margin-top: 30px;
 }
 .top-50
 {
-    margin-top: 50px;	
+    margin-top: 50px;
 }
 .top-60
 {
-    margin-top: 60px;	
+    margin-top: 60px;
 }
 .top-70
 {
-    margin-top: 70px;	
+    margin-top: 70px;
 }
 .top-75
 {
-    margin-top: 75px;	
+    margin-top: 75px;
 }
 .top-80
 {
@@ -118,11 +118,11 @@
 }
 .top-100
 {
-    margin-top: 100px;	
+    margin-top: 100px;
 }
 .top-105
 {
-    margin-top: 105px;	
+    margin-top: 105px;
 }
 .top-120
 {
@@ -130,11 +130,11 @@
 }
 .top-150
 {
-    margin-top: 150px;	
+    margin-top: 150px;
 }
 .top-200
 {
-    margin-top: 200px;	
+    margin-top: 200px;
 }
 .top-negative-30
 {
@@ -248,7 +248,7 @@ a.button
 a.button:active
 {
     position: relative;
-    top: 1px;	
+    top: 1px;
 }
 h1,h2,h3,h4,h5,h6
 {
@@ -257,29 +257,29 @@ h1,h2,h3,h4,h5,h6
 h1
 {
     font-size: 38px;
-    line-height: 38px;    
+    line-height: 38px;
 }
 h2
 {
-    font-size: 34px;    
-    line-height: 34px;    
+    font-size: 34px;
+    line-height: 34px;
 }
 h3
 {
-    font-size: 32px;  
-    line-height: 32px;    
+    font-size: 32px;
+    line-height: 32px;
 }
 h4
 {
-    font-size: 30px;    
+    font-size: 30px;
 }
 h5
 {
-    font-size: 28px;   
+    font-size: 28px;
 }
 h6
 {
-    font-size: 26px;    
+    font-size: 26px;
 }
 em
 {
@@ -324,7 +324,7 @@ sub
 
 /* COLUMNS */
 
-.one,  .one_half,  .one_third,  .two_third,  .three_fourth, 
+.one,  .one_half,  .one_third,  .two_third,  .three_fourth,
 .one_fourth{
     margin-right: 30px;
     float: left;
@@ -356,18 +356,18 @@ sub
 .three_fourth{
     width: 765px;
 }
-.one img,  .one_half img,  .one_third img,  .two_third img, 
+.one img,  .one_half img,  .one_third img,  .two_third img,
 .three_fourth img,  .one_fourth img{
     max-width: 100%;
     height: auto;
     max-height: 100%;
-    width: auto;	
+    width: auto;
 }
 
 .team-holder .one_half
 {
     width: 50%;
-    width: calc(100% / 2);   
+    width: calc(100% / 2);
     margin: 0;
     float: left;
 }
@@ -383,8 +383,8 @@ sub
 .team-holder .one_fourth
 {
     width: 25%;
-    width: calc(100% / 4);   
-    margin: 0;    
+    width: calc(100% / 4);
+    margin: 0;
     float: left;
 }
 

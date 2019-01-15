@@ -179,7 +179,7 @@
     }
     .sm-clean li {
         border-top: 0;
-    }    
+    }
     .sm-clean > li > ul:after {
         top: -16px;
         left: 31px;
