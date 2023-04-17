@@ -1,7 +1,8 @@
 <template>
   <nav class="navbar">
     <div class="container">
-      <a class="navbar-brand" href="/portfolio/">Qianzi Li</a>
+      
+      <a class="navbar-brand" aria-label="home" href="/portfolio/"><img src="/src/assets/logo.svg"></a>
       <ul class="navbar-menu">
         <li>
           <a href="mailto: qianzi@umich.edu" target="_blank"
@@ -31,8 +32,7 @@ export default {
 
 <style scoped>
 .navbar {
-  background: #ffffff30;
-  padding: 1rem 2rem;
+  padding: 10px 2rem;
   font-size: 18px;
 }
 .navbar ul,
@@ -41,8 +41,12 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   gap: 2rem;
+  align-items: center;
 }
 
+img {
+  width: 50px;
+}
 .navbar a {
   text-decoration: none;
   color: inherit;

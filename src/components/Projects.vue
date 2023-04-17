@@ -45,8 +45,8 @@ export default {
   justify-content: center;
 }
 
-.project:hover {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+.project:hover, .project:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
 

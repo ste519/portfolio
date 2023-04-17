@@ -30,13 +30,16 @@ export default {
 
 <style scoped>
 .download-button {
-    background-color: white;
-    border: none;
-    color: black;
-    padding: 20px 40px;
-    border-radius: 50px;
-    font-size: 36px;
-    font-weight: 300;
-    font-family: 'Noto Sans', san-serif;
+  background-color: #5c5c5c;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  font-size: 36px;
+  font-weight: 300;
+  font-family: 'Noto Sans', san-serif;
+}
+
+.download-button:hover, .download-button:focus {
+  box-shadow: 0 0 10px rgba(0,0,0, 0.5)
 }
 </style>
