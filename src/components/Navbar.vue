@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <div class="container">
-      <a class="navbar-brand" href="/porfolio">Qianzi Li</a>
+      <a class="navbar-brand" href="/portfolio/">Qianzi Li</a>
       <ul class="navbar-menu">
         <li>
           <a href="mailto: qianzi@umich.edu" target="_blank"
