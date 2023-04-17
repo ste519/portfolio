@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-
 import './assets/main.css';
 
 library.add(faEnvelope, faGithub, faLinkedin)
