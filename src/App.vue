@@ -17,10 +17,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-#app {
-  background: url(../assets/intro_bg.jpg) no-repeat center center;
-  background-size: cover;
-}
-</style>
