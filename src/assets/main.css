@@ -6,9 +6,4 @@ body {
   color: rgba(31, 31, 31, 0.854);
 }
 
-#app {
-  background: url(../assets/intro_bg.jpg) no-repeat center center;
-  background-size: cover;
-}
-
 
