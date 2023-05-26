@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <Intro />
-    <Projects />
+    <!-- <Projects /> -->
   </div>
 </template>
 
