@@ -21,9 +21,7 @@ export default {
 .footer {
   background-color: #666666;
     color: white;
-    position: absolute;
     display: flex;
-    bottom: 0;
     width: 100%;
     height: 50px;
     align-items: center;
