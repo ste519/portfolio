@@ -6,6 +6,8 @@
       <h2>who like to design and build clean user interfaces.</h2>
       <download-resume />
       <download-resume-chinese />
+      <a href="/portfolio/李芊姿简历.pdf">Testing
+      </a>
       <download-portfolio />
     </div>
   </section>
