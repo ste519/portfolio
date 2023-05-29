@@ -2,7 +2,7 @@
   <section id="intro" class="intro">
     <div class="container">
       <h1>Hi, I am <strong>Qianzi(Stella) Li,</strong></h1>
-      <h2>a UX <strong>Designer</strong> and <strong>Developer</strong></h2>
+      <h2>a <strong>UX Designer</strong> and <strong>Developer</strong></h2>
       <h2>who like to design and build clean user interfaces.</h2>
       <download-resume />
       <download-resume-chinese />
