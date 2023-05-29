@@ -10,7 +10,7 @@ export default {
   methods: {
     downloadPortfolio() {
       // The URL of the resume file
-      const url = 'https://www.aliyundrive.com/s/FcPkPVWCQNE';
+      const url = '/李芊姿作品集中文.pdf';
 
       // Create an anchor element to download the file
       const link = document.createElement('a');
