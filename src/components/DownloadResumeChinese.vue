@@ -10,7 +10,7 @@ export default {
   methods: {
     downloadFile() {
       // The URL of the resume file
-      const url = 'src/assets/李芊姿简历.pdf';
+      const url = 'src/assets/李芊姿简历.pdf'
 
       // Create an anchor element to download the file
       const link = document.createElement('a');
