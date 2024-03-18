@@ -1,38 +1,34 @@
-<template>
-  <section id="intro" class="intro">
-    <div class="container">
-      <h1>Hi, I am <strong>Qianzi(Stella) Li,</strong></h1>
-      <h2>a <strong>UX Designer</strong> and <strong>Developer</strong></h2>
-      <h2>who like to design and build clean user interfaces.</h2>
-      <download-resume />
-      <download-resume-chinese />
-      <download-portfolio />
-    </div>
-  </section>
-</template>
 
-<script>
-import DownloadPortfolio from './DownloadPortfolio.vue';
-import DownloadResume from "./DownloadResume.vue";
-import DownloadResumeChinese from './DownloadResumeChinese.vue';
-
-export default {
-  name: "Intro",
-  components: { DownloadResume, DownloadPortfolio, DownloadResumeChinese },
-};
+<script setup>
+import AboutMe from './AboutMe.vue'
 </script>
 
+<template>
+  <div id="intro">
+    <div class="tagline">
+      <h1>Hi, I am <strong>Qianzi/Stella Li,</strong></h1>
+      <h2>a <strong>Front-End Developer</strong></h2>
+      <h2>and <strong>UX Designer</strong> who love to</h2>
+      <h2> design and build clean user interfaces</h2>
+    </div>
+    <about-me />
+  </div>
+</template>
+
 <style scoped>
-.intro .container {
-  height: 100%;
+#intro {
   display: flex;
   justify-content: center;
-  gap: 2rem;
-  font-size: 36px;
-  margin: auto;
+  font-size: 32px;
+}
+
+.tagline {
+  display: flex;
   flex-direction: column;
-  max-width: 800px;
-  padding: 2rem 0;
+  justify-content: center;
+  padding: 2rem 4rem 2rem 5%;
+  gap: 2rem;
+  flex: 1 0 50%;
 }
 
 strong {

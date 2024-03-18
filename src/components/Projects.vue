@@ -23,9 +23,6 @@ export default {
     methods: {
     goToOasis() {
       this.$router.push('/oasis'); 
-    },
-    goToEdit() {
-      this.$router.push('/updatepackage'); 
     }
   }
 };

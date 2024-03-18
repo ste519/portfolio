@@ -1,3 +1,7 @@
+<script setup>
+import DownloadButton from './DownloadButton.vue';
+</script>
+
 <template>
   <nav class="navbar">
     <div class="container">
@@ -14,16 +18,16 @@
           <a href="https://www.linkedin.com/in/qianzi-li/" target="_blank"><font-awesome-icon
               icon="fa-brands fa-linkedin" />LinkedIn</a>
         </li>
+        <li>
+          <font-awesome-icon icon="fa-solid fa-cloud-arrow-down" />
+          <DownloadButton text="Resume" path="" name="qianzi_resume.pdf" />
+        </li>
+
       </ul>
     </div>
   </nav>
 </template>
 
-<script>
-export default {
-  name: "Navbar",
-};
-</script>
 
 <style scoped>
 .navbar {
