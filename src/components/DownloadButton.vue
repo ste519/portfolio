@@ -8,7 +8,6 @@ const props = defineProps({
 
 const downloadFile = () => {
   const link = document.createElement('a');
-  console.log(props);
   link.href = props.path;
   link.download = props.filename;
   link.target = '_blank';
@@ -26,10 +25,6 @@ const downloadFile = () => {
   </button>
 </template>
 
-
-
-
-
 <style scoped>
 .download-button {
   font-size: 18px;
@@ -39,6 +34,6 @@ const downloadFile = () => {
   color: inherit;
   font-weight: 600;
   font-family: inherit;
+  padding: 0;
 }
-
 </style>

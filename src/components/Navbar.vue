@@ -19,10 +19,17 @@ import DownloadButton from './DownloadButton.vue';
               icon="fa-brands fa-linkedin" />LinkedIn</a>
         </li>
         <li>
-          <font-awesome-icon icon="fa-solid fa-cloud-arrow-down" />
-          <DownloadButton text="Resume" path="" name="qianzi_resume.pdf" />
+          <font-awesome-icon :icon="['fas', 'file-arrow-down']" />
+          <DownloadButton text="Resume" path="/qianzili_resume_0125.pdf" filename="qianzi_resume.pdf" />
         </li>
-
+        <li>
+          <font-awesome-icon :icon="['fas', 'file-arrow-down']" />
+          <DownloadButton text="简历" path="/李芊姿简历.pdf" filename="李芊姿简历.pdf" />
+        </li>
+        <li>
+          <font-awesome-icon :icon="['fas', 'file-arrow-down']" />
+          <DownloadButton text="作品集" path="/李芊姿作品集中文.pdf" filename="李芊姿作品集中文.pdf" />
+        </li>
       </ul>
     </div>
   </nav>
@@ -43,7 +50,7 @@ import DownloadButton from './DownloadButton.vue';
   justify-content: space-between;
   gap: 2rem;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 1rem 0 2rem;
   height: 100%;
 }
 
