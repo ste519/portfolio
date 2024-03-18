@@ -8,7 +8,7 @@ const props = defineProps({
 
 const downloadFile = () => {
   const link = document.createElement('a');
-  link.href = props.path;
+  link.href = `/portfolio/${props.path}`;
   link.download = props.filename;
   link.target = '_blank';
   link.style.display = 'none';
