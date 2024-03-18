@@ -4,14 +4,14 @@
       <a class="project" @click=goToOasis id="oasis">
         <span>Learn More</span>
       </a>
-      <a class="project" href="/informed" id="informed">
-        <span>Learn More</span>
+      <a class="project"  id="informed">
+        <span>Coming Soon</span>
       </a>
-          <a class="project" href="/ibiogram" id="ibiogram">
-        <span>Learn More</span>
+          <a class="project"  id="ibiogram">
+        <span>Coming Soon</span>
       </a>
-          <a class="project" href="/airs" id="airs">
-        <span>Learn More</span>
+          <a class="project"  id="airs">
+        <span>Coming Soon</span>
       </a>
     </div>
   </section>
