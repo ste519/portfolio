@@ -20,7 +20,7 @@ import DownloadButton from './DownloadButton.vue';
         </li>
         <li>
           <font-awesome-icon :icon="['fas', 'file-arrow-down']" />
-          <DownloadButton text="Resume" path="qianzili_resume_0125.pdf" filename="qianzi_resume.pdf" />
+          <DownloadButton text="Resume" path="qianzili_resume_0125.pdf" filename="qianzi_resume_ux.pdf" />
         </li>
         <li>
           <font-awesome-icon :icon="['fas', 'file-arrow-down']" />

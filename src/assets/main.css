@@ -9,5 +9,39 @@ body {
 #app {
   /* background: url(intro_bg.svg) top center; */
   background-size: cover;
+}
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.list-wrapper ul {
+  padding: 0;
+  list-style-type: disc;
+  list-style-position: inside;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-wrapper li {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+b {
+  font-weight: bold;
 }

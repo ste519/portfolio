@@ -1,17 +1,17 @@
 <template>
   <section id="projects" class="projects">
     <div class="container">
-      <a class="project" @click=goToOasis id="oasis">
+      <a class="project" @click="goToProjectView('/oasis')" id="oasis">
         <span>Learn More</span>
       </a>
-      <a class="project"  id="informed">
+      <a class="project" id="informed">
         <span>Coming Soon</span>
       </a>
-          <a class="project"  id="ibiogram">
-        <span>Coming Soon</span>
+      <a class="project" @click="goToProjectView('/ibiogram')" id="ibiogram">
+        <span>Learn More</span>
       </a>
-          <a class="project"  id="airs">
-        <span>Coming Soon</span>
+      <a class="project" @click="goToProjectView('/airs')" id="airs">
+        <span>Learn More</span>
       </a>
     </div>
   </section>
@@ -20,9 +20,9 @@
 <script>
 export default {
   name: "Projects",
-    methods: {
-    goToOasis() {
-      this.$router.push('/oasis'); 
+  methods: {
+    goToProjectView(path) {
+      this.$router.push(path);
     }
   }
 };
@@ -42,7 +42,8 @@ export default {
   justify-content: center;
 }
 
-.project:hover, .project:focus {
+.project:hover,
+.project:focus {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
@@ -50,7 +51,7 @@ export default {
 a {
   text-decoration: none;
   color: inherit;
-    background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
