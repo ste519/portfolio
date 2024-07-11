@@ -1,5 +1,5 @@
 <template>
-  <div class="oasis-project">
+  <div class="airs-project">
     <div class="image">
       <img src="/src/assets/oasis_home.svg" alt="Homepage of OASIS" />
     </div>
@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: "OasisProject",
+  name: "AirsProject",
 };
 </script>
 

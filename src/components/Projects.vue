@@ -1,16 +1,11 @@
 <template>
   <section id="projects" class="projects">
     <div class="container">
-      <a class="project" @click="goToProjectView('/oasis')" id="oasis">
-        <span>Learn More</span>
-      </a>
-      <a class="project" id="informed">
-        <span>Coming Soon</span>
-      </a>
-      <a class="project" @click="goToProjectView('/ibiogram')" id="ibiogram">
-        <span>Learn More</span>
-      </a>
-      <a class="project" @click="goToProjectView('/airs')" id="airs">
+      <a v-for="project in projects" :key="project.id" class="project" :id="project.id"
+        @click="goToProjectView(project.path)" :style="{
+        backgroundImage: `url(${project.image})`,
+        backgroundPosition: project.position
+      }">
         <span>Learn More</span>
       </a>
     </div>
@@ -20,6 +15,20 @@
 <script>
 export default {
   name: "Projects",
+  data() {
+    return {
+      projects: [
+        { id: 'nurse-friend', path: '/nurse-friend', image: null, position: null },
+        { id: 'fim', path: '/fim', image: null, position: null },
+        { id: 'airs', path: '/airs', image: '/src/assets/airs_mockup.svg', position: 'right bottom' },
+        { id: 'oasis', path: '/oasis', image: '/src/assets/oasis_mockup.svg', position: 'left top' },
+        { id: 'vpet', path: '/vpet', image: null, position: null },
+        { id: 'glansis', path: '/glansis', image: null, position: null },
+        { id: 'informed', path: '/informed', image: '/src/assets/informed_mockup.svg', position: 'top right' },
+        { id: 'ibiogram', path: '/ibiogram', image: '/src/assets/ibiogram_mockup.svg', position: 'left bottom' }
+      ]
+    };
+  },
   methods: {
     goToProjectView(path) {
       this.$router.push(path);
@@ -27,6 +36,7 @@ export default {
   }
 };
 </script>
+
 
 <style scoped>
 .projects .container {
@@ -65,25 +75,5 @@ a span {
 
 .project:hover span {
   display: inline-block;
-}
-
-#oasis {
-  background-image: url(/src/assets/oasis_mockup.svg);
-  background-position: left top;
-}
-
-#informed {
-  background-image: url(/src/assets/informed_mockup.svg);
-  background-position: right center;
-}
-
-#airs {
-  background-image: url(/src/assets/airs_mockup.svg);
-  background-position: right bottom;
-}
-
-#ibiogram {
-  background-image: url(/src/assets/ibiogram_mockup.svg);
-  background-position: left bottom;
 }
 </style>
