@@ -54,7 +54,7 @@ export default {
 }
 
 .project {
-  height: 500px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;

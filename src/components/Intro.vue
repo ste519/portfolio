@@ -24,19 +24,20 @@ import AboutMe from './AboutMe.vue'
 .tagline {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 8% 4rem;
+  height: 450px;
   gap: 1rem;
   flex: 1 0 50%;
   background: linear-gradient(271deg, #f7e4b3, #d0edb3, #afd2f6, #f6c1dd);
   background-size: 800% 800%;
-
-  -webkit-animation: AnimationName 37s ease infinite;
-  -moz-animation: AnimationName 37s ease infinite;
-  animation: AnimationName 37s ease infinite;
+  -webkit-animation: Gradient 37s ease infinite;
+  -moz-animation: Gradient 37s ease infinite;
+  animation: Gradient 37s ease infinite;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes Gradient {
   0% {
     background-position: 0% 50%
   }
@@ -50,7 +51,7 @@ import AboutMe from './AboutMe.vue'
   }
 }
 
-@-moz-keyframes AnimationName {
+@-moz-keyframes Gradient {
   0% {
     background-position: 0% 50%
   }
@@ -64,7 +65,7 @@ import AboutMe from './AboutMe.vue'
   }
 }
 
-@keyframes AnimationName {
+@keyframes Gradient {
   0% {
     background-position: 0% 50%
   }
