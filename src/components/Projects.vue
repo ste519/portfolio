@@ -18,7 +18,7 @@ export default {
     return {
       projects: [
         { id: 'nurse-friend', path: '/nurse-friend', image: '/src/assets/nurse-friend/nf_mockup.png' },
-        { id: 'fim', path: '/fim', image: 'src/assets/fim/fim-mockup.png' },
+        { id: 'fim', path: '/fim', image: 'src/assets/fim-mockup.png' },
         { id: 'airs', path: '/airs', image: '/src/assets/airs/airs-mockup.png' },
         { id: 'oasis', path: '/oasis', image: '/src/assets/oasis/oasis-mockup.png' },
         { id: 'informed', path: '/informed', image: '/src/assets/informed/informed-mockup.png' },
