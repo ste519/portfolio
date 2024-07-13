@@ -1,22 +1,15 @@
 <template>
     <section id="aboutme">
-        <div class="image">
-            <img src="/src/assets/me.jpeg" alt="my photo" />
-        </div>
-        <!-- <div class="container">
-            I am a cat person, but I also like dogs!
-            I like to play video games!
-            I am a big fan of k-pop!
-        </div> -->
     </section>
 </template>
 
 <style scoped>
 #aboutme {
-    flex: 1 0 50%;
-}
-
-.image img {
-    display: flex;
+    width: 50%;
+    height: auto;
+    background-image: url("/src/assets/me.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 </style>

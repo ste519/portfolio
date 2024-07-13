@@ -25,7 +25,7 @@ import AboutMe from './AboutMe.vue'
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem 4rem 2rem 5%;
+  padding: 8% 4rem;
   gap: 1rem;
   flex: 1 0 50%;
   background: linear-gradient(271deg, #f7e4b3, #d0edb3, #afd2f6, #f6c1dd);
