@@ -12,19 +12,28 @@
 </template>
 
 <script>
+import nurseFriendImage from '@/assets/nurse-friend/nf_mockup.png';
+import fimImage from '@/assets/fim/fim-mockup.png';
+import airsImage from '@/assets/airs/airs-mockup.png';
+import oasisImage from '@/assets/oasis/oasis-mockup.png';
+import informedImage from '@/assets/informed/informed-mockup.png';
+import vpetImage from '@/assets/vpet/vpet-mockup.png';
+import glansisImage from '@/assets/glansis/glansis-mockup.png';
+import ibiogramImage from '@/assets/ibiogram/ibiogram-mockup.png';
+
 export default {
   name: "Projects",
   data() {
     return {
       projects: [
-        { id: 'nurse-friend', path: '/nurse-friend', image: '/src/assets/nurse-friend/nf_mockup.png' },
-        { id: 'fim', path: '/fim', image: 'src/assets/fim-mockup.png' },
-        { id: 'airs', path: '/airs', image: '/src/assets/airs/airs-mockup.png' },
-        { id: 'oasis', path: '/oasis', image: '/src/assets/oasis/oasis-mockup.png' },
-        { id: 'informed', path: '/informed', image: '/src/assets/informed/informed-mockup.png' },
-        { id: 'vpet', path: '/vpet', image: '/src/assets/vpet/vpet-mockup.png' },
-        { id: 'glansis', path: '/glansis', image: '/src/assets/glansis/glansis-mockup.png', position: 'center center' },
-        { id: 'ibiogram', path: '/ibiogram', image: '/src/assets/ibiogram/ibiogram-mockup.png' }
+        { id: 'nurse-friend', path: '/nurse-friend', image: nurseFriendImage },
+        { id: 'fim', path: '/fim', image: fimImage },
+        { id: 'airs', path: '/airs', image: airsImage },
+        { id: 'oasis', path: '/oasis', image: oasisImage },
+        { id: 'informed', path: '/informed', image: informedImage },
+        { id: 'vpet', path: '/vpet', image: vpetImage },
+        { id: 'glansis', path: '/glansis', image: glansisImage },
+        { id: 'ibiogram', path: '/ibiogram', image: ibiogramImage }
       ]
     };
   },
@@ -34,6 +43,7 @@ export default {
     }
   }
 };
+
 </script>
 
 
