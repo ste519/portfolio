@@ -22,14 +22,13 @@ import AboutMe from './AboutMe.vue'
 }
 
 .tagline {
-  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 2rem 4rem 2rem 5%;
   gap: 1rem;
   flex: 1 0 50%;
-  background: linear-gradient(228deg, #00106a, #690074, #00589f, #00bed3);
+  background: linear-gradient(271deg, #f7e4b3, #d0edb3, #afd2f6, #f6c1dd);
   background-size: 800% 800%;
 
   -webkit-animation: AnimationName 37s ease infinite;
