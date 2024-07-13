@@ -1,9 +1,9 @@
 <template>
-  <div class="oasis-project">
-    <div class="image">
-      <img src="/src/assets/oasis_home.svg" alt="Homepage of OASIS" />
+  <div class="oasis-project project-container">
+    <div class="cover-image">
+      <img src="/src/assets/oasis/oasis-mockup.png" alt="OASIS Mockup" />
     </div>
-    <div class="project-container">
+    <div class="content">
       <h1>Project: OASIS</h1>
       <h2>The Design Lab @ UCSD | 2020 – Now</h2>
 
@@ -34,14 +34,11 @@ export default {
   background: white;
 }
 
-.image {
-  background: #212121;
-  text-align: center;
-  height: 500px;
-  width: 100%;
+.cover-image {
+  background-color: #373737;
 }
 
-img {
-  height: 100%;
+.cover-image img {
+  height: 350px;
 }
 </style>

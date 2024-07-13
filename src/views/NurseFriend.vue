@@ -1,6 +1,9 @@
 <template>
   <div class="nurse-friend-project">
-    <div class="project-container">
+    <div class="cover-image">
+      <img src="/src/assets/nurse-friend/nf_mockup.png" alt="NurseFriend Mockup" />
+    </div>
+    <div class="content">
       <div>
         <h1>NurseFriend: Helping Patients and Caregivers Navigate Medical Crises</h1>
         <h2>Project Overview:</h2>
@@ -175,14 +178,7 @@ export default {
   background: white;
 }
 
-.image {
-  background: #212121;
-  text-align: center;
-  height: 500px;
-  width: 100%;
-}
-
-img {
-  height: 100%;
+.cover-image {
+  background-color: #E0EFFC;
 }
 </style>

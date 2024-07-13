@@ -1,7 +1,7 @@
 <template>
-  <div class="airs-project project-container">
+  <div class="informed-project project-container">
     <div class="cover-image">
-      <img src="/src/assets/airs/airs-mockup.png" alt="AIRS Mockup" />
+      <img src="/src/assets/informed/informed-mockup.png" alt="InforMed Mockup" />
     </div>
     <div class="content">
     </div>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "AirsProject",
+  name: "InforMedProject",
 };
 </script>
 
@@ -20,6 +20,6 @@ export default {
 }
 
 .cover-image {
-  background-color: #3658d2;
+  background-color: #00a4b3;
 }
 </style>

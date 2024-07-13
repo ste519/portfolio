@@ -1,7 +1,7 @@
 <template>
-  <div class="airs-project project-container">
+  <div class="glansis-project project-container">
     <div class="cover-image">
-      <img src="/src/assets/airs/airs-mockup.png" alt="AIRS Mockup" />
+      <img src="/src/assets/glansis/glansis-mockup.png" alt="Glansis Mockup" />
     </div>
     <div class="content">
     </div>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "AirsProject",
+  name: "GlansisProject",
 };
 </script>
 
@@ -20,6 +20,10 @@ export default {
 }
 
 .cover-image {
-  background-color: #3658d2;
+  background-color: #0c2a50;
+}
+
+.cover-image img {
+  height: 700px;
 }
 </style>

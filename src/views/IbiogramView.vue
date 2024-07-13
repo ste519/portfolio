@@ -1,9 +1,9 @@
 <template>
-  <div class="ibiogram-project">
-    <div class="image">
-      <img src="/src/assets/Ibiogram_home.png" alt="Homepage of Ibiogram" />
+  <div class="ibiogram-project project-container">
+    <div class="cover-image">
+      <img src="/src/assets/ibiogram/ibiogram-mockup.png" alt="IBiogram Mockup" />
     </div>
-    <div class="container">
+    <div class="content">
       <div class="flex-center">
         <h1>Ibiogram</h1>
       </div>
@@ -108,17 +108,6 @@ h1 {
   font-weight: bold;
 }
 
-.image {
-  background: #212121;
-  text-align: center;
-  height: 500px;
-  width: 100%;
-}
-
-img {
-  height: 100%;
-}
-
 .oasis-details ul {
   padding: 0;
   list-style-type: disc;
@@ -129,5 +118,9 @@ img {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 15px;
+}
+
+.cover-image {
+  background-color: #009DA7;
 }
 </style>
