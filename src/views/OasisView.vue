@@ -3,24 +3,22 @@
     <div class="image">
       <img src="/src/assets/oasis_home.svg" alt="Homepage of OASIS" />
     </div>
-    <div class="container">
+    <div class="project-container">
       <h1>Project: OASIS</h1>
       <h2>The Design Lab @ UCSD | 2020 – Now</h2>
 
-      <div class="list-wrapper">
-        <ul>
-          <li>
-            Design and develop the user interface using Figma, React, MUI,
-            Html/CSS, and JavaScript.
-          </li>
-          <li>Upgrade the user interface in response to user feedback.</li>
-          <li>
-            Collaborate with designers, developers, and scholars to deliver the
-            prototype to potential clients including the RADx-rad team and the
-            Lancet team.
-          </li>
-        </ul>
-      </div>
+      <ul>
+        <li>
+          Design and develop the user interface using Figma, React, MUI,
+          Html/CSS, and JavaScript.
+        </li>
+        <li>Upgrade the user interface in response to user feedback.</li>
+        <li>
+          Collaborate with designers, developers, and scholars to deliver the
+          prototype to potential clients including the RADx-rad team and the
+          Lancet team.
+        </li>
+      </ul>
     </div>
   </div>
 </template>

@@ -19,12 +19,12 @@ export default {
 
 <style scoped>
 .footer {
-  background-color: #666666;
-    color: white;
-    display: flex;
-    width: 100%;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
 }
 </style>

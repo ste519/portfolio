@@ -3,8 +3,7 @@
     <div class="container">
       <a v-for="project in projects" :key="project.id" class="project" :id="project.id"
         @click="goToProjectView(project.path)" :style="{
-        backgroundImage: `url(${project.image})`,
-        backgroundPosition: project.position
+        backgroundImage: `url(${project.image})`
       }">
         <span>Learn More</span>
       </a>
@@ -18,14 +17,14 @@ export default {
   data() {
     return {
       projects: [
-        { id: 'nurse-friend', path: '/nurse-friend', image: null, position: null },
-        { id: 'fim', path: '/fim', image: null, position: null },
-        { id: 'airs', path: '/airs', image: '/src/assets/airs_mockup.svg', position: 'right bottom' },
-        { id: 'oasis', path: '/oasis', image: '/src/assets/oasis_mockup.svg', position: 'left top' },
-        { id: 'vpet', path: '/vpet', image: null, position: null },
-        { id: 'glansis', path: '/glansis', image: null, position: null },
-        { id: 'informed', path: '/informed', image: '/src/assets/informed_mockup.svg', position: 'top right' },
-        { id: 'ibiogram', path: '/ibiogram', image: '/src/assets/ibiogram_mockup.svg', position: 'left bottom' }
+        { id: 'nurse-friend', path: '/nurse-friend', image: '/src/assets/nurse-friend/nf_mockup.png' },
+        { id: 'fim', path: '/fim', image: 'src/assets/fim/fim-mockup.png' },
+        { id: 'airs', path: '/airs', image: '/src/assets/airs/airs-mockup.png' },
+        { id: 'oasis', path: '/oasis', image: '/src/assets/oasis/oasis-mockup.png' },
+        { id: 'informed', path: '/informed', image: '/src/assets/informed/informed-mockup.png' },
+        { id: 'vpet', path: '/vpet', image: '/src/assets/vpet/vpet-mockup.png' },
+        { id: 'glansis', path: '/glansis', image: '/src/assets/glansis/glansis-mockup.png', position: 'center center' },
+        { id: 'ibiogram', path: '/ibiogram', image: '/src/assets/ibiogram/ibiogram-mockup.png' }
       ]
     };
   },
@@ -63,6 +62,7 @@ a {
   color: inherit;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 a span {
