@@ -27,12 +27,12 @@ const downloadFile = () => {
 
 <style scoped>
 .download-button {
-  font-size: 18px;
+  font-size: 16px;
   appearance: none;
   border: none;
   background: none;
   color: inherit;
-  font-weight: 600;
+  font-weight: 400;
   font-family: inherit;
   padding: 0;
 }

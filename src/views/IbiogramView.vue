@@ -6,14 +6,10 @@
     <div class="content">
       <section class="overview">
         <h1>Ibiogram</h1>
-        <h2>Project Overview</h2>
-        <ul>
-          <li><b>Role: </b>UX Designer and UI developer</li>
-          <li><b>Technologies Used: </b>Svelte, CSS, JavaScript, Figma </li>
-          <li><b>Project Duration: </b></li>
-          <li><b>Team Size: </b>5+</li>
-          <li><b>Association: </b>The Design Lab @ University of California, San Diego</li>
-        </ul>
+        <p><b>Role: </b>UX Designer and UI developer</p>
+        <p><b>Technologies Used: </b>Svelte, CSS, JavaScript, Figma </p>
+        <p><b>Project Duration: </b>July 2019 - December 2021</p>
+        <p><b>Association: </b>The Design Lab @ University of California, San Diego</p>
       </section>
       <section class="description">
         <h2>Project Description</h2>
@@ -22,6 +18,7 @@
           and antimicrobial data. This tool aims to enhance the diagnosis and treatment of infectious diseases by
           providing clear, actionable insights through intuitive user interfaces.
         </p>
+        <img src="@/assets/ibiogram/1.png" alt="Ibiogram Dashboard">
       </section>
       <section class="challenges">
         <h2>Challenges</h2>
@@ -55,13 +52,14 @@
       <section class="solutions">
         <h2>Solutions and Innovations</h2>
         <p>
-          Interactive Elements: To minimize user errors and enhance navigation, I incorporated subtle design
+          <b>Interactive Elements:</b> To minimize user errors and enhance navigation, I incorporated subtle design
           elements
           such as borders and box shadows on interactive buttons. These visual cues significantly reduced confusion
           and miss-clicks, making the tool more user-friendly.
         </p>
         <p>
-          Iterative Design: Each iteration of the interface brought improvements in interactivity and intuitiveness.
+          <b>Iterative Design:</b> Each iteration of the interface brought improvements in interactivity and
+          intuitiveness.
           We
           continuously integrated user feedback into the design process, ensuring that each version of the tool
           better

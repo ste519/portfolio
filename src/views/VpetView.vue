@@ -5,7 +5,7 @@
     </div>
     <div class="content">
       <section class="project-overview">
-        <h1>VPet Project | Digital Companion App</h1>
+        <h1>VPet Project - Digital Companion App</h1>
         <p><strong>Project Overview:</strong></p>
         <p>vPet is an innovative digital companion app designed to simulate pet ownership for individuals who cannot own
           live pets due to various constraints like housing rules, space limitations, or allergies. The app integrates

@@ -48,6 +48,10 @@ body {
   margin-top: 1rem;
 }
 
+.content img {
+  width: 80%
+}
+
 .cover-image {
   text-align: center;
   height: 300px;

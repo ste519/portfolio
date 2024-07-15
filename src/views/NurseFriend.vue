@@ -178,6 +178,10 @@ export default {
   background: white;
 }
 
+.content img {
+  width: 100%
+}
+
 .cover-image {
   background-color: #E0EFFC;
 }

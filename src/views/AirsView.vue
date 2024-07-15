@@ -66,9 +66,11 @@
         </section>
 
         <section class="demo">
-          <h2>Demonstration</h2>
-          <p>The video showcases how users interact with the system and the various features it offers.</p>
+          <h2>Frontend Demo</h2>
           <iframe src="https://drive.google.com/file/d/1PbX2J1u5CPqEkSmGoqQxYRFQz9jaKSbQ/preview" width="640"
+            height="360" allow="autoplay"></iframe>
+          <h2>Simplified Backend Demo</h2>
+          <iframe src="https://drive.google.com/file/d/1tWViEl5bVPH-m_gwposa-jAHxgHx_30K/preview" width="640"
             height="360" allow="autoplay"></iframe>
         </section>
       </div>

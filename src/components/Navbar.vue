@@ -22,14 +22,14 @@ import DownloadButton from './DownloadButton.vue';
           <font-awesome-icon :icon="['fas', 'file-arrow-down']" />
           <DownloadButton text="Resume" path="qianzili_resume_ux.pdf" filename="qianzi_resume_ux.pdf" />
         </li>
-        <li>
+        <!-- <li>
           <font-awesome-icon :icon="['fas', 'file-arrow-down']" />
           <DownloadButton text="简历" path="李芊姿简历.pdf" filename="李芊姿简历.pdf" />
         </li>
         <li>
           <font-awesome-icon :icon="['fas', 'file-arrow-down']" />
           <DownloadButton text="作品集" path="李芊姿作品集中文.pdf" filename="李芊姿作品集中文.pdf" />
-        </li>
+        </li> -->
       </ul>
     </div>
   </nav>
@@ -38,7 +38,7 @@ import DownloadButton from './DownloadButton.vue';
 
 <style scoped>
 .navbar {
-  font-size: 18px;
+  font-size: 16px;
   background: white;
   height: 60px;
 }
@@ -61,7 +61,7 @@ img {
 .navbar a {
   text-decoration: none;
   color: inherit;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .navbar svg {
