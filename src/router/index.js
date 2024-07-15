@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import OasisView from '../views/OasisView.vue'
 import IbiogramView from '../views/IbiogramView.vue'
@@ -10,7 +10,7 @@ import GlansisView from '../views/GlansisView.vue'
 import FimView from '../views/FimView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   scrollBehavior(to, from, savedPosition) {
     // always scroll to top
     return { top: 0 }
